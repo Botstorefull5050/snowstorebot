@@ -19,7 +19,6 @@ wallet_info: |-
     <b>Informações</b>
     - Saldo: R$ <b>{balance}</b>
    
-    
     👑 @SnowCcs
     👥 @SnowGroupOfc
 # the button at /start
@@ -135,12 +134,13 @@ gift_user_usage: |-
     ℹ️ Modo de uso do <code>/gift</code>: <code>/gift</code> + GIFT_CARD
     Exemplo: <code>/gift A1B2C3D4E5F</code>
 gift_created: |-
-    🏷 <b>GIFT CARD</b>
+    🏷 <b>GIFT</b>
     💰 <b>Valor</b>: <b>R${price}</b>
     📥 <b>Resgate</b>: <code>/gift {code}</code>
 gift_redeemed_alert: |-
     ✅ Você resgatou <b>R${price}</b> com gift card.
     💰 Seu novo saldo é de: <b>R${balance}</b>
+    🤝 OBRIGADO PELA COMPRA!
 gift_admin_usage: |-
     ❕ Caso esteja tentando criar um novo gift card, envie <code>/gift</code> + o valor em reais.
     Exemplo: <code>/gift 50</code>
