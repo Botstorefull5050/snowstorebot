@@ -72,7 +72,7 @@ cpfs_added_alert: |-
 stats: |-
     📊 Estatísticas
 buy_cc: |-
-    COMPRAR CC
+    💳 LOJA
 buy_cc_unit_text: |-
     💳 STANDARD - <code>R$10</code>
     💳 GOLD - <code>R$15</code>
@@ -211,14 +211,13 @@ buy_alert: |-
     - Produto:
     <code>{cards_str}</code>
 ask_agreed_tos: |-
-    🆙 TERMOS DE COMPRA E USO 🆙
-    ⚠️NÃO GARANTIMOS SUA APROVAÇÃO
-    ⚠️O BOT ENTREGA CC LIVE
-    ⚠️VOCÊ TERÁ 10 MINUTOS PARA SOLICITAR TROCA EM "MENU"
-    ⚠️GARANTIMOS SOMENTE LIVE!
+    🎉 SNOW STORE 🎉
+    👥 @SnowRefs
+    👥 @SnowGroupOfc
+    👑 @SnowCcs
     Confirme que entendeu, para prosseguir.
 agreed: |-
-    ✅ Li e aceito
+    ✅ CONTINUAR 
 start_exchanging: |-
     🔃 Iniciar troca
 exchange_text: |-
