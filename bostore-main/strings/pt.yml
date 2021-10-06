@@ -11,17 +11,16 @@ start_text: |-
     
 # user wallet info
 wallet_info: |-
-
-
+    Explore o bot pelos botões abaixo. Qualquer dúvida é só chamar @SnowCcs.
     <b>Avisos</b>
+    
     - Checker online ✅
     
     <b>Informações</b>
-    - Saldo: R$ <b>{balance}</b>
-   
-    👑 @SnowCcs
-    👨🏻‍💻 @SnowCcs
-    👥 @SnowGroupOfc
+    
+    - SALDO: R$<code>R${balance}</code>
+    - ID: <code>{user_id}</code>
+    - CARGO: <code>CLIENTE</code>
     
 # the button at /start
 help: ❕ Ajuda
@@ -73,27 +72,9 @@ cpfs_added_alert: |-
 stats: |-
     📊 Estatísticas
 buy_cc: |-
-    💳 LOJA
+    🏆 LOJA
 buy_cc_unit_text: |-
-    💳 STANDARD - <code>R$10</code>
-    💳 GOLD - <code>R$15</code>
-    💳 BLACK - <code>R$25</code>
-    💳 INFINITE - <code>R$40</code>
-    💳 CLASSIC - <code>R$10</code>
-    💳 PREPAID - <code>R$10</code>
-    💳 EXECUTIVE - <code>R$25</code>
-    💳 PLATINUM - <code>R$25</code>
-    💳 ELO - <code>R$10</code>
-    💳 ELO MORE - <code>R$10</code>
-    💳 ELECTRON - <code>R$25</code>
-    💳 EMPRESARIAL - <code>R$10</code>
-    💳 PERSONAL - <code>R$7</code>
-    💳 BASIC - <code>R$7</code>
-    💳 BÁSICO - <code>R$10</code>
-    💳 ELECTRONIC - <code>R$10</code>
-    💳 PREPAID BUSINESS - <code>R$10</code>
-    💳 CORPORATE - <code>R$10</code>
-    💳 CORPORATE T&E - <code>R$10</code>
+    
 cc_mix: |-
     🎲 MIX
 cc_unit: |-
@@ -102,21 +83,19 @@ buy_promo_text: |-
     💸 <u>Proções</u>
     - <i>Promoções são produtos por um valor mais baixo por tempo limitado.</i>
 add_balance: |-
-    💵 ADICIONAR SALDO
+    💴 ADICIONAR SALDO
 my_balance: |-
     👤 PERFIL
 buy_cc_text: |-
-    <b>COMPRAR CC</b>
-    - <i>Escolha abaixo o produto que deseja comprar.</i>
 to_resell: |-
-    🤝 REVENDA
+    REVENDA
 bin_unit: |-
-    💱 BIN
+    🎰 BIN 
 buy_mix_resell: |-
     🤝 Comprar <u>Mix para revenda</u>
     Mix por valor promocional e <b>sem trocas</b>.
 buy_mix_resell_denied: |-
-    ❗ Para comprar mixes para revenda, é necessário conversar no privado com @SnowCcs.
+    ❗ Para comprar mixes para revenda, é necessário conversar no privado com @oWDinfos.
 buy_cc_mix_text: |-
     🔀 Comprar <u>Mix</u>
     Mix por valor promocional e <b>sem trocas</b>. Black e Infinite só estão inclusas em mixes <b>acima de 10</b> (Ver na opção Para revenda).
@@ -131,14 +110,14 @@ cards_found_by_bin: |-
 no_cards_found_by_bin: |-
     ❌ Não há InfoCCs disponíveis com a bin <code>{card_bin}</code>.
 exchange: |-
-    🎰 TROCAS
+    TROCAS
 gift_user_usage: |-
     ℹ️ Modo de uso do <code>/gift</code>: <code>/gift</code> + GIFT_CARD
     Exemplo: <code>/gift A1B2C3D4E5F</code>
 gift_created: |-
-    🏷 <b>GIFT</b>
+    🏷 <b>Snow Wallet</b>
     💰 <b>Valor</b>: <b>R${price}</b>
-    📥 <b>Resgate</b>: <code>/gift {code}</code>
+    📥 <b>Cod</b>: <code>/gift {code}</code>
 gift_redeemed_alert: |-
     ✅ Você resgatou <b>R${price}</b> com gift card.
     💰 Seu novo saldo é de: <b>R${balance}</b>
@@ -153,17 +132,16 @@ customer_redeemed_alert: |-
     - Novo saldo: <b>R${balance}</b>
     - Gift card: <code>{code}</code>
 redeem_gifts: |-
-
 ask_gift_card: |-
     🏷 Envie o gift card para resgatar.
 gift_card_not_found_to_redeem: |-
     ❌ Não encontrei nenhum gift card na sua mensagem, por favor verifique se digitou corretamente. Um gift card é um código de 11 caracteres (letras maiúsculas e números), algo parecido com A1B2C3D4E5F.
-lara_pix_info: |-
-    - <b>NOME</b>: IVISON
-    - <b>BANCO</b>: AL5
-    - <b>CHAVE</b>: <code>c8399e53-694c-49ce-b070-642910dda7b5</code>
-    
-    👑 MANDE O COMPROVANTE PARA @SnowCcs
+lara_pix_info: |-  
+    - <b>NOME</b>: <code>ANTONIO</code>
+    - <b>CHAVE</b>: <code>e8f82ea9-0b33-4123-bbbe-236a69386007</code>
+    - <b>BANCO</b>: <code>PAGBANK</code>
+      
+     🏦 MANDE O COMPROVANTE PARA @SnowCCc.
 add_balance_text: |-
     ESCOLHA A FORMA DE PAGAMENTO ABAIXO
 my_balance_text: |-
@@ -213,24 +191,24 @@ buy_alert: |-
     - Produto:
     <code>{cards_str}</code>
 ask_agreed_tos: |-
-    🎉 SNOW STORE 🎉
-    👥 @SnowRefs
-    👥 @SnowGroupOfc
-    👑 @SnowCcs
+    🆙 TERMOS DE COMPRA E USO 🆙
+    ⚠️NÃO GARANTIMOS SUA APROVAÇÃO
+    ⚠️O BOT ENTREGA CC LIVE
+    ⚠️VOCÊ TERÁ 10 MINUTOS PARA SOLICITAR TROCA EM "MENU"
+    ⚠️GARANTIMOS SOMENTE LIVE!
     Confirme que entendeu, para prosseguir.
 agreed: |-
-    ✅ CONTINUAR 
+    ✅ Li e aceito
 start_exchanging: |-
     🔃 Iniciar troca
 exchange_text: |-
-    🔃 <b>Troca de produtos</b>
     ❇️ InfoCCs disponíveis para troca: <b>{total_eligible}</b>
 could_not_get_bin_info: |-
     ❌ Não consegui obter informações sobre esta bin.
 buy_bin: |-
     💰 Comprar {quant} - R${price}
 prices_has_not_level: |-
-    ❌ Não há preço definido para cartões de nível {level}. Por favor tire um print desta mensagem e envie para @SnowCcs para que o nível possa ser adicionado.
+    ❌ Não há preço definido para cartões de nível {level}. Por favor tire um print desta mensagem e envie para @SnowCCs para que o nível possa ser adicionado.
 not_enough_ccs_for_bin: |-
     ❌ Não há mais a quantidade desejada para o pacote de bins, o valor das mesmas foi estornado. Quantidade disponível: {available}.
 error_too_short_buy_interval: |-
@@ -250,7 +228,7 @@ time_for_exchange_exceeded: |-
     ❌ O tempo de troca para esse cartão já foi excedido.
     - <i>{card}</i>
 no_cc_available_to_exchange: |-
-    ✅
+    ❕O cartão informado está live! A troca deste cartão não é possível.
     - <i>{card}</i>
 no_cc_available_to_exchange_bin: |-
     ❌ Infelizmente não há CCs disponíveis para substituir a sua BIN. O valor da mesma foi estornado para sua conta.
